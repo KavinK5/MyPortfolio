@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+
+        body
+        {
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .right-corner {
+            display: flex;
+            position: absolute;
+            top: 3.0%;
+            right: 12px;
+        }
+
+        .imDiv
+        {
+            display: flex;
+            justify-content: center;
+        }
+
+        .right-corner > a
+        {
+            text-align: center;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 120%;
+            text-decoration: none;
+            color: black;
+        }
+
+        .right-corner > a:hover
+        {
+            color: rgba(0, 0, 0, 0.507);
+            background-color:whitesmoke;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        img
+        {
+            margin-top: 10%;
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        ::selection
+        {
+            color:chocolate;
+            background-color:cornsilk;
+        }
+
+        .imtxt
+        {
+            display: flex;
+            justify-content: center;
+            gap: 7%;
+            margin-top: 160px;
+        }
+
+        .pdf
+        {
+            text-decoration: none;
+            border: 2px solid rgb(103, 101, 101);
+            color: black;
+            font-weight: bold;
+            padding: 5%;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        .ps
+        {
+            margin-top: 15%;
+        }
+        
+        .pdf:hover
+        {
+            color: rgb(103, 101, 101);
+            border-width: 2px;
+        }
+
+
+        @media (max-width:700px) 
+        {
+            .right-corner
+            {
+                flex-direction: column;
+                margin-top: 50px;
+                left: 10px;
+                padding-top: 0;
+                width: 100%;
+            }
+
+            .imtxt
+            {
+                flex-direction: column;    
+                margin-top: 40%;         
+            }
+
+            .txtDiv
+            {
+                margin-left: 35%;   
+            }
+
+            .pdf
+            {
+                padding: 3%;
+            }
+
+            .skillColumn
+            {
+                flex-direction: column;
+            }
+
+            .fend,.bend
+            {
+                width: 45vmin;
+                margin-left: 25%;
+            }
+
+            .bend
+            {
+                margin-top: 10px;
+            }
+
+        }
+
+
+        .skillColumn
+        {
+            display: flex;
+            justify-content: center;
+            gap:10%;
+            margin-bottom: 5%;
+        }
+
+
+        .skills > div
+        {
+            text-align: center;
+        }
+
+        .skills > div:nth-child(1)
+        {
+            font-size: 120%;
+        }
+
+        .skills > div:nth-child(2)
+        {
+            font-size: 150%;
+            font-weight: bold;
+        }
+
+
+
+        .fend
+        {
+            display: inline-flex;
+            border: 2px solid grey;
+            flex-direction:column ;
+        }
+
+        .fend > div
+        {
+            padding-top: 4%;
+            text-align: center;
+            font-size: 130%;
+
+        }
+
+        .fend > div:nth-child(1)
+        {
+            margin-top: 2%;
+        }
+
+        .bend
+        {
+            display: inline-flex;
+            border: 2px solid grey;
+            flex-direction:column ;
+        }
+
+        .bend > div
+        {
+            text-align: center;
+            font-size: 130%;
+        }
+
+        .bend > div:nth-child(1)
+        {
+            font-weight: bold;
+            padding-top: 5%;
+        }
+
+        .fend,.bend
+        {
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px;
+        }
+
+        .GithubL
+        {
+            font-size: 1.5em;
+        }
+
+        .finalDiv
+        {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .finalDiv div
+        {
+            font-size: 1.2em;
+        }
+
+        .finalDiv .finalLogo
+        {
+            font-size: 1.1em;
+        }
+
+        .textK
+        {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <span style="position: absolute;left: 3%; top:3%;font-weight: bold;font-size: 180%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:darkred;">
+    K<span style="border-bottom: 1px solid darkred;border-right: 1.5px solid darkred;">avin Kathiresan<span style="color: transparent;font-size: 80%;">.</span></span></span>
+    <div class="right-corner">
+        <a href="./try.html"><span>Home</span></a>
+        <a href="#hfAbout"><span>About</span></a>
+        <a href="#hfSkills"><span>Skills</span></a>
+        <a href="#hfContact"><span>Contact</span></a>
+    </div>
+
+    
+    <div class = "imtxt" id="hfAbout">
+        <div class = "imDiv">
+            <img src="./IMG_20220526_122235.jpg" >
+        </div>
+    
+        <div class = "txtDiv">
+            
+            <span style="font-size: 80%;color:rgb(103, 101, 101);font-weight: bold;"><br><br><br><br><br>&emsp;&emsp;&emsp;Hi there! I'm</span><br>
+            <span style="font-size: 190%;font-weight: bold;">&emsp;KavinK</span><br>
+            <span style="font-weight: bold;color:rgb(103, 101, 101);font-size: 125%;">Full-Stack Developer</span>
+            <p class = "ps">&emsp;&emsp;<a class = "pdf" href = "./Kavin_K Resume.pdf" download>My Resume</a></p>
+        </div>
+    </div>
+  
+<br>    <br><br>
+    <div style="display: flex;justify-content: center;">
+    <div style="display: inline-flex;flex-direction: column;border: 2px solid grey;border-radius: 20px;box-shadow: 5px 5px 30px;">
+        <div style="text-align: center;font-size: 170%;padding-top: 5%;"><i class="material-icons">school</i></div>
+        <div style="font-size: 115%;text-align: center;font-weight: bold;">Education</div>
+        <div style="font-size: 110%;text-align: center;">B.Tech Bio-Technology</div>
+        <DIV style="visibility: hidden;">sjcdvcssaidhfiwebccdjewcice</DIV>
+    </div>
+</div>
+    
+<br><br><br><br>
+
+<div class = "skills" id="hfSkills">
+    <div>Explore my</div>
+    <div>SKILLS</div>
+</div>
+<br>
+
+<div class="skillColumn">
+    <div class = "fend">
+        <div style="font-weight: bold;">&emsp;Frontend Development&emsp;</div>
+        <br>
+        <div style="margin-left: -10%;">
+            <div><i class="material-icons">verified</i>&emsp;HTML</div>
+            <div style="font-size: 60%;padding-left: 50px;">Experienced</div>
+        </div>
+        <br>
+        <div style="margin-left: -20%;">
+            <div><i class="material-icons">verified</i>&emsp;CSS</div>
+            <div style="font-size: 60%;padding-left: 70px;">Experienced</div>
+        </div>
+        <br>
+        <div style="margin-left: 0;">
+            <div><i class="material-icons">verified</i>&emsp;JavaScript</div>
+            <div style="font-size: 60%;padding-bottom: 5%;">Basic</div>
+        </div>
+    </div>
+
+    
+    <div class = "bend">
+        <div>&emsp;Backend Development&emsp;</div>
+        
+        <div style="margin-left: -10%;padding-top: 30px;">
+            <div><i class="material-icons">verified</i>&emsp;Python</div>
+            <div style="font-size: 60%;padding-left: 50px;">Experienced</div>
+        </div>
+        <br>
+        <div style="margin-left: -20%;">
+            <div><i class="material-icons">verified</i>&emsp;SQL</div>
+            <div style="font-size: 60%;padding-left: 70px;">Experienced</div>
+        </div>
+        <br>
+        <div style="margin-left: -20px;">
+            <div><i class="material-icons">verified</i>&emsp;Django</div>
+            <div style="font-size: 60%;padding-left: 55px;">Intermediate</div>
+        </div>
+    </div>
+</div>
+
+<div class="finalDiv" id="hfContact">
+    <div><ion-icon name="call-sharp" class="finalLogo"></ion-icon>8778766561</div>
+    <div><ion-icon name="logo-github" class="finalLogo"></ion-icon><a href="https://github.com/KavinK5" class="textK">KavinK5</a></div>
+    <div><ion-icon name="mail-sharp" class="finalLogo"></ion-icon>krkavin346@gmail.com</div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
