@@ -235,10 +235,69 @@
             text-decoration: none;
             color: black;
         }
+
+        span1{
+            position: absolute;
+            left: 3%;
+            top:3%;
+            font-weight: bold;
+            font-size: 180%; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkred;
+        }
+
+        .txtDiv span{
+            font-weight: bold;
+        }
+
+        .div11{
+            display: flex;
+            justify-content: center;
+        }
+
+        .div12{
+            display: inline-flex;
+            flex-direction: column;
+            border: 2px solid grey;
+            border-radius: 20px;
+            box-shadow: 5px 5px 30px;
+        }
+
+        .div12 div{
+            text-align: center;
+        }
+
+        .bendDiv1{
+            margin-left: -10%;
+            padding-top: 30px;
+        }
+
+        .bendDiv12{
+            font-size: 60%;
+            padding-left: 50px;
+        }
+
+        .bendDiv2{ 
+            margin-left: -20%;
+        }
+
+        .bendDiv3{ 
+            margin-left: -20px;
+        }
+
+        .bendDiv22 {
+            font-size: 60%;
+            padding-left: 70px;
+        }
+
+        .bendDiv32 {
+            font-size: 60%;
+            padding-left: 55px;
+        }
     </style>
 </head>
 <body>
-    <span style="position: absolute;left: 3%; top:3%;font-weight: bold;font-size: 180%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:darkred;">
+    <span class='span1'>
     K<span style="border-bottom: 1px solid darkred;border-right: 1.5px solid darkred;">avin Kathiresan<span style="color: transparent;font-size: 80%;">.</span></span></span>
     <div class="right-corner">
         <a href="./try.html"><span>Home</span></a>
@@ -255,20 +314,20 @@
     
         <div class = "txtDiv">
             
-            <span style="font-size: 80%;color:rgb(103, 101, 101);font-weight: bold;"><br><br><br><br><br>&emsp;&emsp;&emsp;Hi there! I'm</span><br>
-            <span style="font-size: 190%;font-weight: bold;">&emsp;KavinK</span><br>
-            <span style="font-weight: bold;color:rgb(103, 101, 101);font-size: 125%;">Full-Stack Developer</span>
+            <span style="font-size: 80%;color:rgb(103, 101, 101);"><br><br><br><br><br>&emsp;&emsp;&emsp;Hi there! I'm</span><br>
+            <span style="font-size: 190%;">&emsp;KavinK</span><br>
+            <span style="color:rgb(103, 101, 101);font-size: 125%;">Full-Stack Developer</span>
             <p class = "ps">&emsp;&emsp;<a class = "pdf" href = "./Kavin_K Resume.pdf" download>My Resume</a></p>
         </div>
     </div>
   
 <br>    <br><br>
-    <div style="display: flex;justify-content: center;">
-    <div style="display: inline-flex;flex-direction: column;border: 2px solid grey;border-radius: 20px;box-shadow: 5px 5px 30px;">
-        <div style="text-align: center;font-size: 170%;padding-top: 5%;"><i class="material-icons">school</i></div>
-        <div style="font-size: 115%;text-align: center;font-weight: bold;">Education</div>
-        <div style="font-size: 110%;text-align: center;">B.Tech Bio-Technology</div>
-        <DIV style="visibility: hidden;">sjcdvcssaidhfiwebccdjewcice</DIV>
+    <div class='div11'>
+    <div class = 'div12'>
+        <div style="font-size: 170%;padding-top: 5%;"><i class="material-icons">school</i></div>
+        <div style="font-size: 115%;font-weight: bold;">Education</div>
+        <div style="font-size: 110%;">B.Tech Bio-Technology</div>
+        <div style="visibility: hidden;">sjcdvcssaidhfiwebccdjewcice</div>
     </div>
 </div>
     
@@ -304,19 +363,19 @@
     <div class = "bend">
         <div>&emsp;Backend Development&emsp;</div>
         
-        <div style="margin-left: -10%;padding-top: 30px;">
+        <div class='bendDiv1'>
             <div><i class="material-icons">verified</i>&emsp;Python</div>
-            <div style="font-size: 60%;padding-left: 50px;">Experienced</div>
+            <div class='bendDiv12'>Experienced</div>
         </div>
         <br>
-        <div style="margin-left: -20%;">
+        <div class='bendDiv2'>
             <div><i class="material-icons">verified</i>&emsp;SQL</div>
-            <div style="font-size: 60%;padding-left: 70px;">Experienced</div>
+            <div class='bendDiv22' style="font-size: 60%;padding-left: 70px;">Experienced</div>
         </div>
         <br>
-        <div style="margin-left: -20px;">
+        <div class='bendDiv3'>
             <div><i class="material-icons">verified</i>&emsp;Django</div>
-            <div style="font-size: 60%;padding-left: 55px;">Intermediate</div>
+            <div class='bendDiv32'>Intermediate</div>
         </div>
     </div>
 </div>
